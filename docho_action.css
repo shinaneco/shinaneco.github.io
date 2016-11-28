@@ -1,0 +1,562 @@
+* {
+    outdline: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    word-spacing: 0.02rem;
+    list-style-type: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------here-------------------------------------------*/
+
+@media screen and (max-width: 400px) {
+    .top {
+        position: absolute;
+        top: 0;
+        height: 4rem;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #55b327;
+    }
+    .logo {
+        width: 10rem;
+        padding: 1rem;
+        padding-left: 0.3rem;
+    }
+    .fa-bars {
+        font-size: 1.6rem;
+        padding-top: 1.2rem;
+        position: absolute;
+        right: 5%;
+        color: #55b327;
+    }
+    .topRightSide {
+        display: none;
+    }
+    .middle {
+        list-style-type: none;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .bottom {
+        position: absolute;
+        top: 335vw !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        left: 0 !important;
+        right: 0 !important;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        color: rgb(100, 100, 100);
+        border-top: 2px solid #55b327;
+        
+        padding-left:0.3rem;
+    }
+    .picture {
+        width: 100%;
+    }
+    .middleTop {
+        list-style-type: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+    .middleMiddle {
+        list-style-type: none;
+        position: absolute;
+        top: 53vw;
+        left: 0;
+        right: 0;
+        padding-left: 1rem;
+        width: 100%;
+    }
+    .thislogo {
+        width: 7rem !important;
+        padding-top: 0.4rem !important;
+        padding-left: 0.7rem!important;
+    }
+    .CO2chart {
+        display: none;
+    }
+    .rightBody {
+        position: absolute;
+        top: 17rem;
+        left: 7vw;
+        right: 7vw;
+    }
+    .bigName {
+        font-weight: bold;
+    }
+    .class img {
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+    .class {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 0 !important;
+    }
+    .sevenRP {
+        position: relative !important;
+        top: 0 !important;
+    }
+    /*---------------------------------------bottom-------------------------------------------*/
+    .greenPoint {
+        display: none;
+    }
+    .forBr {
+        display: none;
+    }
+  
+    .bottom img {
+        display: none;
+    }
+}
+
+
+/*-----------------------------------------------here-------------------------------------------*/
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .top {
+        position: absolute;
+        top: 0;
+        height: 5rem;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #55b327;
+    }
+    .topBody {
+        position: absolute;
+        top: 0;
+        left: 3vw;
+        right: 0;
+    }
+    .middle {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        right: 0;
+    }
+    .middleTop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .middleTop li {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .middleMiddle {
+        position: absolute;
+        top: 58vw;
+        height: 43.5rem;
+        left: 0;
+        right: 0;
+    }
+    .bottom {
+        position: absolute;
+        top: 200vw;
+        left: 0;
+        right: 0;
+        border-top: 2px solid #55b327;
+        font-size: 0.78rem;
+        line-height: 1.2rem;
+        padding-top: 0.5rem;
+        color: rgb(100, 100, 100);
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .bottom img {
+        display: none;
+    }
+    .fa-search {
+        font-size: 1.3rem;
+        padding-top: 2rem;
+        position: absolute;
+        right: 5%;
+        font-weight: lighter;
+    }
+    .loginMenu {
+        display: none;
+    }
+    .thislogo {
+        width: 150px;
+        padding-top: 0.4rem !important;
+        padding-left: 0.7rem!important;
+    }
+    .bigName {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .rightBody {
+        position: absolute;
+        left: 7vw;
+        right: 7vw;
+        top: 18rem;
+    }
+    .forBr {
+        display: none;
+    }
+    .topMenu {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        right: 0;
+        font-weight: bold;
+    }
+    .topMenu li {
+        float: left;
+        font-size: 0.95rem;
+        width: 20%;
+    }
+    .search {
+        display: none;
+        padding: 0;
+    }
+    #inputGoogle {
+        display: none;
+    }
+    .topRightSide {
+        position: absolute;
+        left: 23vw;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .colorPoint {
+        background-color: #55b327;
+        color: white;
+        font-size: 0.8rem;
+        padding: 0.1rem;
+        padding-left: 0.3rem;
+        padding-right: 0.35rem;
+        padding-bottom: 0.2rem;
+    }
+    .point {
+        color: white;
+    }
+    a .point:link {
+        color: white !important;
+    }
+    .input_text {
+        display: none;
+    }
+    .firstPic {
+        position: absolute;
+        top: 0;
+    }
+    .picture {
+        width: 100%;
+    }
+    .link {
+        position: absolute;
+        bottom: 1rem;
+        width: 18rem;
+        right: 2rem;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /*---------------------------------------bottom------------------------------------------*/
+    .fa-fax {
+        color: #55b327;
+    }
+    .fa-phone {
+        color: #55b327;
+    }
+    .pen {
+        color: #0B4F2B !important;
+    }
+    .bottomPic {
+        display: none;
+    }
+    .CO2chart {
+        position: absolute;
+        top: 4rem;
+        left: -2.4rem !important;
+        padding: 0;
+    }
+    #chart {width:600px;}
+    .topLI {
+        margin-bottom: 4.5rem !important;
+    }
+}
+
+
+/*-----------------------------------------------here-------------------------------------------*/
+
+@media screen and (min-width:769px) {
+    .top {
+        position: absolute;
+        top: 0.7rem;
+        height: 5.4rem;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #55b327;
+    }
+    .topBody {
+        position: absolute;
+        top: 0;
+        left: 12vw;
+        right: 12vw;
+    }
+    .middle {
+        position: absolute;
+        top: 6rem;
+        left: 12vw;
+        right: 12vw;
+    }
+    .bottom {
+        position: absolute;
+        top: 100vw;
+        left: 12vw;
+        right: 12vw;
+        border-top: 2px solid #55b327;
+        font-size: 0.78rem;
+        line-height: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: rgb(100, 100, 100);
+    }
+    .logo {
+        width: 12rem;
+        margin: 1rem auto;
+    }
+    .thislogo {
+        width: 10rem;
+        position: absolute;
+        top: 0.1rem;
+    }
+    .topRightSide {
+        position: absolute;
+        left: 11rem;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .loginMenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+    .loginMenu li {
+        float: left;
+        padding-left: 1rem;
+    }
+    .topMenu {
+        position: absolute;
+        top: 2.6rem;
+        left: 0;
+        right: 0;
+        font-size: 1.05rem;
+        font-weight: bold;
+    }
+    .topMenu li {
+        float: left;
+        padding-left: 2.5rem;
+        width: 15%;
+    }
+    #inputGoogle {
+        width: 20%;
+        position: absolute;
+        top: -0.05rem;
+        right: 0;
+    }
+    .fa-search {
+        position: absolute;
+        right: 0.3rem;
+        line-height: 18px;
+    }
+    .colorPoint {
+        background-color: #55b327;
+        color: white;
+        padding: 0.1rem;
+        padding-left: 0.3rem;
+        padding-right: 0.35rem;
+        padding-bottom: 0.2rem;
+    }
+    .point {
+        color: white;
+    }
+    a .point:link {
+        color: white !important;
+    }
+    .input_text {
+        position: absolute;
+        right: 0;
+    }
+    /*--------------------------------------------bottom------------------------------------------------*/
+    .bottom img {
+        display: none;
+    }
+    .forBr {
+        display: none;
+    }
+    .fa-phone {
+        font-weight: bold;
+        color: #55b327;
+    }
+    .fa-fax {
+        color: #55b327;
+    }
+    .shinAn {
+        position: absolute;
+        top: 2.9rem;
+        left: 0.7rem;
+        z-index: 1;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        letter-spacing: 0.08rem;
+    }
+    .leftLink {
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        bottom: 0;
+        width: 11rem;
+    }
+    .rightBody {
+        position: absolute;
+        top: 2rem;
+        left: 11rem;
+        right: 0;
+        padding-left: 2.5rem;
+    }
+    .bigName {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .CO2chart {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        padding: 0;
+    }
+}
+
+.liPoint {
+    height: 6rem;
+    background-color: #55b327;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    line-height: 6rem;
+    padding-left: 1.5rem;
+}
+
+.name {
+    margin-top: 0.2rem;
+    height: 9rem;
+    border: 1px solid rgba(200, 200, 200, 0.6);
+    border-bottom: none;
+}
+
+.name li {
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.name li:hover {
+    background-color: #55b327;
+    color: white;
+}
+
+.pic {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 12vw;
+    text-align: center;
+}
+
+.pic img {
+    width: 500px;
+}
+
+.class {
+    margin-top: 31rem;
+}
+
+.class li {
+    margin-top: 4rem;
+    height: inherit;
+}
+
+.class li img {
+    margin-top: 1rem;
+}
+
+.actText {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-left: none;
+}
+
+.campain {
+    font-size: 0.7rem !important;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+
+.sevenRP {
+    position: absolute;
+    top: 51rem;
+    width: 24rem;
+}
+
+.BigName {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.two {
+    width: 27rem;
+}
+
+.Ecopoint {
+    color: #21a2dd;
+    font-weight: bolder;
+}
+
+.campain {
+    font-weight: bold;
+    font-size: 0.7rem !important;
+}
