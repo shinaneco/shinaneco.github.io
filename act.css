@@ -240,7 +240,7 @@
          top: 2rem;
          left: 2rem;
          right: 0;
-         font-weight: bold;
+        
      }
      .topMenu li {
          float: left;
@@ -379,7 +379,7 @@
          left: 0;
          right: 0;
          font-size: 1.05rem;
-         font-weight: bold;
+        
      }
      .topMenu li {
          float: left;
@@ -452,10 +452,7 @@
          right: 0;
          padding-left: 2.5rem;
      }
-     .bigName {
-         
-         font-weight: bold;
-     }
+    
      .pic img {
          width: 500px;
      }
@@ -484,7 +481,7 @@
      height: 6rem;
      background-color: #55b327;
      font-size: 1.1rem;
-     font-weight: bold;
+    
      color: white;
      line-height: 6rem;
      padding-left: 1.5rem;
@@ -502,7 +499,7 @@
      line-height: 3rem;
      padding-left: 1.5rem;
      font-size: 0.9rem;
-     font-weight: bold;
+     
      border-bottom: 1px solid rgba(200, 200, 200, 0.5);
  }
  
@@ -533,7 +530,3 @@
      font-size: 0.9rem;
  }
  
- .campain {
-     font-weight: bold;
-     font-size: 0.7rem !important;
- }
