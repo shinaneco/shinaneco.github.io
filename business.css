@@ -131,7 +131,7 @@ a:hover {
     }
     .bigName {
         font-size: 1.2rem;
-      
+      font-weight: bold;
     }
     .rightBody {
         position: absolute;
@@ -234,7 +234,7 @@ a:hover {
         padding-left: 0.7rem!important;
     }
     .bigName {
-        
+        font-weight: bold;
         font-size: 1.5rem;
     }
     .rightBody {
@@ -499,7 +499,7 @@ a:hover {
     }
     .bigName {
         font-size: 1.5rem;
-     
+     font-weight: bold;
     }
     .map img {
         width: 40vw;

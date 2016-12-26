@@ -135,7 +135,7 @@ a:hover {
     }
     .bigName {
         font-size: 1.2rem;
-        
+        font-weight: bold;
     }
     .bodyMiddle {
         position: absolute;
@@ -249,7 +249,7 @@ a:hover {
         padding-left: 0.7rem!important;
     }
     .bigName {
-       
+       font-weight: bold;
         font-size: 1.5rem;
     }
     .rightBody {
@@ -513,7 +513,7 @@ a:hover {
     }
     .bigName {
         font-size: 1.5rem;
-        
+        font-weight: bold;
     }
     .text {
         display: block;
