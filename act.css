@@ -119,7 +119,7 @@
      }
      .bigName {
          font-size: 1.2rem;
-         font-weight: bold;
+        
      }
      /*---------------------------------------bottom-------------------------------------------*/
      .bottom img {
@@ -197,7 +197,7 @@
          display: none;
      }
      .bigName {
-         font-weight: bold;
+        
          font-size: 1.5rem;
      }
      .min700 {
@@ -454,7 +454,7 @@
      }
      .bigName {
          font-size: 1.5rem;
-         font-weight: bold;
+         
      }
      .pic img {
          width: 500px;
