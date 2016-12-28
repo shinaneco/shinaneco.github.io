@@ -23,11 +23,54 @@ a:hover {
     color: black;
     text-decoration: none;
 }
-
+ a img {
+     border: 0;
+ }
 
 /*-----------------------------------------------here-------------------------------------------*/
 
 @media screen and (max-width: 400px) {
+    .blah {
+         height: 3rem;
+         /*         background-color: aqua;*/
+         z-index: 3;
+         position: absolute;
+         left: 0;
+         right: 0;
+         top: 2rem;
+     }
+     .littleMenu {
+         height: 16rem;
+         background-color: white !important;
+         position: absolute;
+         top: 1.8rem;
+         left: 0 !important;
+         right: 0 !important;
+         border-top: 2px solid #55b327;
+         border-bottom: 2px solid #55b327;
+         z-index: 5;
+         width: 100%;
+     }
+     .littleMenu li {
+         height: 20%;
+         background-color: white !important;
+         width: 100%;
+         text-align: center;
+         padding: 1.5rem;
+         font-weight: bold;
+     }
+     .fa-bars {
+         font-size: 1.6rem;
+         padding-top: 1.2rem;
+         position: absolute;
+         top: -2rem;
+         right: 5%;
+         color: #55b327;
+     }
+     .topMenu {
+         display: none;
+         z-index: 3;
+     }
     .top {
         position: absolute;
         top: 0;
@@ -41,16 +84,7 @@ a:hover {
         padding: 1rem;
         padding-left: 0.3rem;
     }
-    .fa-bars {
-        font-size: 1.6rem;
-        padding-top: 1.2rem;
-        position: absolute;
-        right: 5%;
-        color: #55b327;
-    }
-    .topRightSide {
-        display: none;
-    }
+   
     .middle {
         list-style-type: none;
         position: absolute;
@@ -142,6 +176,10 @@ a:hover {
 /*-----------------------------------------------here-------------------------------------------*/
 
 @media screen and (min-width: 401px) and (max-width: 768px) {
+    .blah {
+         display: none;
+        
+     }
     .top {
         position: absolute;
         top: 0;
@@ -313,6 +351,10 @@ a:hover {
 /*-----------------------------------------------here-------------------------------------------*/
 
 @media screen and (min-width:769px) {
+    .blah {
+         display: none;
+        
+     }
     .top {
         position: absolute;
         top: 0.7rem;

@@ -162,9 +162,20 @@ a:hover {
         margin: 0 !important;
     }
     .class li {
-        height: 10rem !important;
-        border-bottom: 1px dotted rgb(150, 150, 150);
+        height: 4rem !important;
+        font-weight: bold;
+        
     }
+    .class li:before {
+    color: #55b327;
+    content: "•";
+    position: relative;
+    left: 0;
+    top: 5px;
+    font-size: 2rem;
+    margin-left: -4px;
+}
+
 }
 
 
@@ -526,11 +537,13 @@ a:hover {
 }
 
 .class li {
-    height: 4rem;
-    margin-bottom: 2rem;
+    height: 2rem;
+    width:100%;
+    font-weight:bold;
+   
 }
 
-.text:before {
+.class li:before {
     color: #55b327;
     content: "•";
     position: relative;
