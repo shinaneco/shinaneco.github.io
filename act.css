@@ -1,5 +1,4 @@
  * {
-     
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -28,7 +27,7 @@
  }
  /*-----------------------------------------------here-------------------------------------------*/
  
- @media screen and (max-width: 450px) {
+ @media screen and (max-width: 400px) {
      .top {
          position: absolute;
          top: 0;
@@ -44,7 +43,6 @@
      }
      .blah {
          height: 3rem;
-       
          z-index: 3;
          position: absolute;
          left: 0;
@@ -93,7 +91,7 @@
      }
      .bottom {
          position: absolute;
-         top: 405vw !important;
+         top: 380vw !important;
          padding-top: 1rem;
          padding-bottom: 1rem;
          left: 0 !important;
@@ -166,7 +164,7 @@
  }
  /*-----------------------------------------------here-------------------------------------------*/
  
- @media screen and (min-width: 451px) and (max-width: 768px) {
+ @media screen and (min-width: 401px) and (max-width: 768px) {
         .blah {
          display: none;
         
