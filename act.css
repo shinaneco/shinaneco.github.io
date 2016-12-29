@@ -28,7 +28,7 @@
  }
  /*-----------------------------------------------here-------------------------------------------*/
  
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 450px) {
      .top {
          position: absolute;
          top: 0;
@@ -44,7 +44,7 @@
      }
      .blah {
          height: 3rem;
-         /*         background-color: aqua;*/
+       
          z-index: 3;
          position: absolute;
          left: 0;
@@ -166,7 +166,7 @@
  }
  /*-----------------------------------------------here-------------------------------------------*/
  
- @media screen and (min-width: 401px) and (max-width: 768px) {
+ @media screen and (min-width: 451px) and (max-width: 768px) {
         .blah {
          display: none;
         
